@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RB CAMPUS 逢甲大學行銷系大四畢業專題 - 穿進你的校園日常，結合永續時尚、Brother GTX pro 工業級直噴印花與校園生活風格。">
-    <meta name="keywords" content="RB CAMPUS, 逢甲行銷, 畢業專題, 永續時尚, 穿進你的校園日常, RB設計, brothergtxpro">
+    <meta name="description" content="RB CAMPUS 逢甲大學行銷系大四畢業專題 - 穿進你的校園日常，結合永續時尚與校園生活風格。">
     <title>RB CAMPUS | 逢甲大學行銷系大四畢業專題</title>
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -13,145 +12,31 @@
 </head>
 <body>
 
-    <!-- 導覽列 (Navbar) -->
+    <!-- 導覽列 (Navbar) - 正確連結到獨立分頁 -->
     <header class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-brand">🦅 RB CAMPUS Portfolio</a>
-            <button class="nav-toggle" id="navToggle" aria-label="切換選單">☰</button>
-            <nav class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link active">首頁總覽</a>
-                <a href="#brand" class="nav-link">品牌理念與 Logo</a>
-                <a href="#production" class="nav-link">產線與印花工藝</a>
-                <a href="#metrics" class="nav-link">社群成效數據</a>
+            <a href="index.html" class="nav-brand">🦅 RB CAMPUS</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">首頁</a>
+                <a href="brand.html" class="nav-link">品牌理念</a>
+                <a href="production.html" class="nav-link">產線與工藝</a>
+                <a href="metrics.html" class="nav-link">社群成效</a>
+                <a href="vibe-coding-prompts.md" class="nav-link">Vibe Coding</a>
             </nav>
         </div>
     </header>
 
-    <div class="main-wrapper">
-        <!-- 側邊欄 (Sidebar) -->
-        <aside class="sidebar" id="sidebar">
-            <h3>大四畢業專題</h3>
-            <ul>
-                <li><a href="#home" class="side-link active" data-tab="home">專題首頁概覽</a></li>
-                <li><a href="#brand" class="side-link" data-tab="brand">品牌理念與 Logo 視覺</a></li>
-                <li><a href="#production" class="side-link" data-tab="production">產線日常與印花工藝</a></li>
-                <li><a href="#metrics" class="side-link" data-tab="metrics">社群成效與 1.6w 瀏覽</a></li>
-            </ul>
-        </aside>
+    <main class="content-area" style="margin-left: 0; max-width: 1200px; margin: 80px auto; padding: 40px;">
+        <div class="hero-card" style="background: #fff; border: 1px solid #e0d5d0; border-radius: 12px; padding: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+            <h1 style="font-size: 2.2rem; margin-bottom: 10px; color: #222;">RB CAMPUS | 讓校園穿搭，重新誕生。</h1>
+            <p style="font-size: 1.15rem; color: #d46a6a; font-weight: bold; margin-bottom: 20px;">逢甲大學行銷系大四畢業專題 | 學號：D1475582 | 蘇芳可 (Meg)</p>
+            <p style="line-height: 1.8; color: #666; margin-bottom: 15px; font-size: 1.05rem;"><strong>一件團服，真的只能穿一次嗎？</strong> 我們想做的，不只是把圖案印上衣服，而是讓那些屬於大學的記憶，換一種方式重生。</p>
+            <p style="line-height: 1.8; color: #666; font-size: 1.05rem;">請點擊上方導覽列的「品牌理念」、「產線與工藝」與「社群成效」，查看完整的專題分頁內容與合作業主介紹！</p>
+        </div>
+    </main>
 
-        <!-- 主要內容區 (Main Content) -->
-        <main class="content-area">
-            
-            <!-- 分頁 1：首頁概覽 -->
-            <section id="home" class="tab-section active">
-                <div class="hero-card">
-                    <h1>RB CAMPUS | 讓校園穿搭，重新誕生。</h1>
-                    <p class="hero-subtitle">逢甲大學行銷系大四畢業專題 | 學生編號：D1475582 | 蘇芳可 (Meg)</p>
-                    <p><strong>一件團服，真的只能穿一次嗎？</strong> 我們想做的，不只是把圖案印上衣服，而是讓那些屬於大學的記憶，換一種方式重生。</p>
-                    <p>RB CAMPUS 延續 RB 設計原有的「重生」概念，這一次，我們把它帶進校園。從系服、社服、球隊服，到演唱會應援穿搭，我們希望重新打破大家對「團體服」的想像——不再是活動結束後就被收進衣櫃的紀念品，而是一件即使回到日常，你還是會想穿出門的衣服。</p>
-                </div>
-            </section>
-
-            <!-- 分頁 2：品牌理念與 Logo -->
-            <section id="brand" class="tab-section">
-                <div class="section-header">
-                    <h2>品牌識別與核心精神</h2>
-                    <span class="badge">Brand Identity</span>
-                </div>
-
-                <div class="logo-showcase">
-                    <div class="logo-box">
-                        <h2 style="color: #d46a6a; margin: 0;">RB CAMPUS</h2>
-                    </div>
-                    <p><strong>REBIRTH IN CAMPUS.</strong></p>
-                    <p style="color: #666; margin-top: 10px;">結合獨特的飛鳥圖騰與現代感字體，象徵自由、突破與校園青春的無限可能。</p>
-                </div>
-
-                <div class="hero-card" style="background: #fff;">
-                    <h3 style="margin-bottom: 15px; color: #222;">✨ 核心價值與合作業主 (RB設計)</h3>
-                    <ul style="padding-left: 20px; line-height: 1.8; color: #666;">
-                        <li><strong>專業代工支援</strong>：由合作業主「RB設計 | 品牌服飾代工」提供穩定布料、高品質印刷與精準交期。</li>
-                        <li><strong>不只是團服</strong>：讓校園回憶重新被穿上身，重新定義屬於我們這個世代的校園風格。</li>
-                        <li><strong>日常共鳴</strong>：打造兼具質感、高磅數與日常好搭配的服飾，告別傳統團服厚重膠感。</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- 分頁 3：產線與印花工藝 -->
-            <section id="production" class="tab-section">
-                <div class="section-header">
-                    <h2>產線日常：Brother GTX pro 工業級直噴印花機</h2>
-                    <span class="badge">Production Line</span>
-                </div>
-
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80" alt="Brother GTX pro 印花機">
-                        <h3>「所見即所得，你的態度印在衣服上🔥」</h3>
-                        <p>從螢幕上的設計藍圖，到手中無與倫比的質感衣著。我們搬出了祕密武器：Brother GTX pro 工業級直噴印花機，為每件作品注入職人堅持。</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" alt="高階直噴技術">
-                        <h3>⚡ 1200 dpi 極致解析度</h3>
-                        <p>完美捕捉每一個微小細節與漸層；搭配 CMYK + 雙倍白墨配置，深色布料一樣能展現飽和、高品質的原生色彩。</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- 分頁 4：社群成效數據 -->
-            <section id="metrics" class="tab-section">
-                <div class="section-header">
-                    <h2>社群行銷成效與互動</h2>
-                    <span class="badge">Performance</span>
-                </div>
-                <div class="hero-card" style="background: linear-gradient(135deg, #ffffff, #eef5ff);">
-                    <h3 style="color: #d46a6a; margin-bottom: 10px;">📈 Instagram 官方社群高流量表現 (@rb.campus_)</h3>
-                    <p style="font-size: 1.1rem; font-weight: bold; color: #333; margin-bottom: 15px;">單篇貼文與短影音累積突破數百次互動與 1.6 萬次瀏覽量！</p>
-                    <p>透過精準的校園社群經營、短影音展示與「產線日常」系列貼文，成功在校園內引發熱烈討論與共鳴，展現強大的數位行銷實戰力。</p>
-                </div>
-            </section>
-
-        </main>
-    </div>
-
-    <!-- 頁尾 -->
-    <footer class="footer">
-        <p>&copy; 2026 Su Fangko (Meg). All Rights Reserved. Student ID: D1475582 | RB CAMPUS 逢甲大學行銷系畢業專題</p>
+    <footer class="footer" style="text-align: center; padding: 20px; background: #fff; border-top: 1px solid #e0d5d0; font-size: 0.85rem; color: #666;">
+        <p>&copy; 2026 Su Fangko (Meg). All Rights Reserved. Student ID: D1475582 | RB CAMPUS</p>
     </footer>
-
-    <!-- JavaScript 互動切換邏輯 -->
-    <script>
-        const navToggle = document.getElementById('navToggle');
-        const sidebar = document.getElementById('sidebar');
-        navToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('show');
-        });
-
-        const sideLinks = document.querySelectorAll('.side-link');
-        const tabSections = document.querySelectorAll('.tab-section');
-
-        sideLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('data-tab');
-
-                sideLinks.forEach(l => l.classList.remove('active'));
-                link.classList.add('active');
-
-                tabSections.forEach(sec => {
-                    sec.classList.remove('active');
-                    if(sec.id === targetId) {
-                        sec.classList.add('active');
-                    }
-                });
-
-                if(window.innerWidth <= 768) {
-                    sidebar.classList.remove('show');
-                }
-            });
-        });
-    </script>
 </body>
-</html>
-
 </html>
