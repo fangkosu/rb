@@ -1,0 +1,15 @@
+# Vibe Coding 指令說明 | RB CAMPUS 畢業專題網頁
+
+* **作者**：蘇芳可 D1475582
+* **課程**：逢甲大學行銷系大四畢業專題
+* **工具**：Claude / Gemini (對話式 AI) + GitHub + Vercel
+* **主題**：RB CAMPUS - 穿進你的校園日常，結合永續時尚與 Brother GTX pro 工業級直噴印花。
+
+## 🤖 我的 Prompt 迭代過程
+
+### Prompt 1: 建立多頁面架構與 SEO 規範
+* **目的**：請 AI 建立符合行銷系畢業專題的高質感多頁面架構，包含頂端導覽列、SEO meta 標籤、CSS Grid System 與 RWD 響應式手機版面。
+* **執行成果**：成功建立模組化 CSS（`variables.css`, `layout.css`, `components.css`, `responsive.css`）與完整首頁。
+
+### Prompt 2: 整合合作業主與產線日常
+* **目的**：將合作業主「RB設計 | 品牌服飾代工」的專業代工優勢（DTF、DTG 數位直噴、1200 dpi 雙倍白墨）與 Instagram 1.6 萬次瀏覽數據完整寫入各分頁。
